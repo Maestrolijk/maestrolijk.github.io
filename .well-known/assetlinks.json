@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "nl.grobben.finance",
+        "sha256_cert_fingerprints": ["00:C7:3B:58:DC:5B:88:82:72:94:CD:C7:60:BE:97:99:C1:00:F6:B0:C7:D0:03:4E:32:83:83:78:34:5D:FA:C1"]
+      }
+    }]
