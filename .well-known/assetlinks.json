@@ -1,8 +1,26 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "nl.grobben.finance",
-        "sha256_cert_fingerprints": ["00:C7:3B:58:DC:5B:88:82:72:94:CD:C7:60:BE:97:99:C1:00:F6:B0:C7:D0:03:4E:32:83:83:78:34:5D:FA:C1"]
-      }
-    }]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "nl.grobben.finance",
+      "sha256_cert_fingerprints": [
+        "BESTAANDE_SHA256_VAN_FINANCE"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "nl.grobben.verbruik",
+      "sha256_cert_fingerprints": [
+        "7D:B3:EB:65:BB:01:20:0A:4C:8E:2F:C2:3B:07:F9:8C:9B:CD:C7:5E:A7:2F:4C:15:AE:E5:E6:AA:3A:35:A5:7A"
+      ]
+    }
+  }
+]
